@@ -1,16 +1,19 @@
-### Hi there 👋
+### Hi there! I'm Sandro 😊
 
-<!--
-**sandro-salzmann/sandro-salzmann** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**I love crafting cool stuff for the web and making it both gorgeous and user-friendly.**
 
-Here are some ideas to get you started:
+Here's a bit about me! I...
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+... 💜 **really** like everything Typescript, React, Clean Code & Clean Architecture, and Tailwind.
+
+... ❤️ also like Symfony, Firebase, Node.JS, TRPC, Prisma, PrimeReact and Docker.
+
+... 📚 want to learn Remix, deep dive into Firebase & always keep my mind open in the ever-evolving world of the wide web.
+
+... 🧀 come from Switzerland.
+
+... 🏢 am part of the team at Ongoing GmbH.
+
+... 🎓 hold a Bachelor of Science from Hochschule Luzern/FHZ in Computer Science, majoring in Software Development - Web.
+
+... 🌍 have built some cool stuff! Check out my [Portfolio](https://sandro-salzmann.github.io/portfolio-webpage/).
