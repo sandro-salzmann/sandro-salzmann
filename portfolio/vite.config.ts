@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [
     remix({
       ssr: false,
+      basename: "/sandro-salzmann/",
       future: {
         v3_fetcherPersist: true,
         v3_relativeSplatPath: true,
@@ -17,4 +18,5 @@ export default defineConfig({
     remixRoutes(),
   ],
   assetsInclude: ["../README.md"],
+  base: "/sandro-salzmann/",
 });
