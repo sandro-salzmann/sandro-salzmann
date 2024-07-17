@@ -20,4 +20,4 @@ Here's a bit about me! I...
 
 ... 🎓 hold a Bachelor of Science from Hochschule Luzern/FHZ in Computer Science, majoring in Software Development - Web.
 
-... 🌍 have built some cool stuff! Check out my [Portfolio](https://sandro-salzmann.github.io/portfolio-webpage/).
+... 🌍 have built some cool stuff! Check out my [Portfolio](https://sandro-salzmann.github.io/sandro-salzmann/).
