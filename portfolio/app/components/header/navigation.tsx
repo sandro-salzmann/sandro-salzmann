@@ -36,9 +36,9 @@ export const Navigation = () => {
               <NavLink key={key} to={to}>
                 {({ isActive }) => (
                   <>
-                    <div className="px-4 py-2 text-lg inline-flex gap-2 items-center border-2">
+                    <div className="aspect-square lg:aspect-[inherit] px-4 py-2 text-lg inline-flex gap-2 items-center border-2">
                       <span className="material-symbols-rounded">{icon}</span>
-                      {title}
+                      <span className="hidden lg:inline-block text-center">{title}</span>
                     </div>
                     <div
                       className={`w-full h-full absolute top-0 left-0 transition-colors ${isActive && "blur-xl bg-purple-500/30"}`}
@@ -50,7 +50,7 @@ export const Navigation = () => {
           ))}
         </div>
         <h2 className={`relative transition-opacity ${!isTitleVisible && "opacity-0"}`}>
-          <h1 className="text-xl font-extrabold">{TITLE}</h1>
+          <h1 className="text-xl font-extrabold text-center">{TITLE}</h1>
           <div className="w-full h-full absolute top-0 blur-md text-purple-300/70" aria-hidden>
             {TITLE}
           </div>

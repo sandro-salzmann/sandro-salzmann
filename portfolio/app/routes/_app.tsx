@@ -12,7 +12,7 @@ export default function Layout() {
       className="w-dvw h-dvh bg-center bg-cover bg-black text-purple-50 overflow-y-auto space-y-8"
       style={{ backgroundImage: `url("${backgroundUrl}")` }}
     >
-      <div className="container pt-4 md:pt-8">
+      <div className="container pt-4 lg:pt-8">
         <Links />
       </div>
       <div className="container relative">
