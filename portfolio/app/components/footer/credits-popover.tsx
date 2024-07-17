@@ -17,6 +17,8 @@ export const CreditsPopover = () => {
             Music by{" "}
             <a
               className="link-blue"
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://pixabay.com/de/users/loksii-40853646/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=211881"
             >
               Oleksii Holubiev
@@ -24,6 +26,8 @@ export const CreditsPopover = () => {
             from{" "}
             <a
               className="link-blue"
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=211881"
             >
               Pixabay
@@ -39,7 +43,12 @@ export const CreditsPopover = () => {
               <ul>Graphics Title: 1f600.svg</ul>
               <li>
                 Graphics Author:{" "}
-                <a className="link-blue" href="https://github.com/twitter/twemoji">
+                <a
+                  className="link-blue"
+                  href="https://github.com/twitter/twemoji"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Copyright 2020 Twitter, Inc and other contributors
                 </a>
               </li>
@@ -48,13 +57,20 @@ export const CreditsPopover = () => {
                 <a
                   className="link-blue"
                   href="https://github.com/twitter/twemoji/blob/master/assets/svg/1f600.svg"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   https://github.com/twitter/twemoji
                 </a>
               </li>
               <li>
                 Graphics License:{" "}
-                <a className="link-blue" href="https://creativecommons.org/licenses/by/4.0/">
+                <a
+                  className="link-blue"
+                  href="https://creativecommons.org/licenses/by/4.0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   CC-BY 4.0
                 </a>
               </li>
