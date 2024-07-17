@@ -16,9 +16,9 @@ export default function Layout() {
         <Links />
       </div>
       <div className="container relative">
-        <h1 className="text-4xl lg:text-8xl font-extrabold">{TITLE}</h1>
+        <h1 className="text-6xl lg:text-8xl font-extrabold">{TITLE}</h1>
         <h1
-          className="text-4xl lg:text-8xl font-extrabold absolute top-0 blur-xl text-purple-300/80 pointer-events-none"
+          className="text-6xl lg:text-8xl font-extrabold absolute top-0 blur-xl text-purple-300/80 pointer-events-none"
           aria-hidden
         >
           {TITLE}
@@ -27,7 +27,6 @@ export default function Layout() {
       <h2 className="container text-3xl font-semibold">
         <TypewriterComponent
           options={{
-            loop: true,
             delay: 50,
           }}
           onInit={(typewriter) => {
@@ -38,9 +37,12 @@ export default function Layout() {
               .typeString("pretty")
               .pauseFor(1000)
               .deleteChars(6)
-              .typeString("usable webapps and websites.")
-              .pauseFor(1000)
-              .deleteChars(18)
+              .typeString("usable websites.")
+              .pauseFor(250)
+              .deleteChars(6)
+              .typeString("apps.")
+              .pauseFor(250)
+              .deleteChars(5)
               .typeString("things! 🚀")
               .pauseFor(5000)
               .start();
