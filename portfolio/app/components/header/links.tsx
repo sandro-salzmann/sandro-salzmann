@@ -37,7 +37,7 @@ export const Links = ({ hide = false }: LinksProps) => {
 
   const links = (
     <>
-      <a target="_blank" href="/cv-sandro-salzmann.pdf" rel="noreferrer">
+      <a target="_blank" href="cv-sandro-salzmann.pdf" rel="noreferrer">
         CV
       </a>
       <a target="_blank" href="https://github.com/sandro-salzmann" rel="noreferrer">
