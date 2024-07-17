@@ -23,7 +23,7 @@ export const Links = ({ hide = false }: LinksProps) => {
 
   useEffect(() => {
     if (!audioRef.current) {
-      audioRef.current = new Audio("/flow-211881.mp3");
+      audioRef.current = new Audio("flow-211881.mp3");
       audioRef.current.volume = 0.25;
     }
     const audio = audioRef.current;
