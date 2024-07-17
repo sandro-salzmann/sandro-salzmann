@@ -16,9 +16,9 @@ export default function Layout() {
         <Links />
       </div>
       <div className="container relative">
-        <h1 className="text-8xl font-extrabold">{TITLE}</h1>
+        <h1 className="text-4xl lg:text-8xl font-extrabold">{TITLE}</h1>
         <h1
-          className="text-8xl font-extrabold absolute top-0 blur-xl text-purple-300/80 pointer-events-none"
+          className="text-4xl lg:text-8xl font-extrabold absolute top-0 blur-xl text-purple-300/80 pointer-events-none"
           aria-hidden
         >
           {TITLE}
