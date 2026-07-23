@@ -1,6 +1,6 @@
 ### Hi there! I'm Sandro 😊
 
-**I love crafting software for the web (and beyond) that people actually enjoy, and making it both gorgeous and user-friendly.**
+**I love crafting software for the web (and beyond) that people actually enjoy.**
 
 Here's a bit about me! I...
 
